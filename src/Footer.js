@@ -38,13 +38,13 @@ const Footer = () => {
                         <div className='about'>
                             <h3>ABOUT US</h3>
                             <p className='abt-p'>
-                                On my way to where the air is sweet. Can you tell me how to get how to get to Sesame Street! The first mate and his Skipper too will do their very best to make the others makes comfortable
+                                Committed to inculcate the values of discipline, honesty and integrity among students, faculty and staff and to bring out the significance of the close interaction, Industries and the Society for the Cultural, Social and Economic advancements of our Nation.
                             </p>
                             <span className='socio-img'>
-                                <a href="#" ><FaXTwitter /></a>
-                                <a href="#" ><FaFacebook /></a>
-                                <a href="#" ><FaGoogle /></a>
-                                <a href="#" ><FaLinkedinIn /></a>
+                                <a href="https://twitter.com/?logout=1708754468090" ><FaXTwitter /></a>
+                                <a href="https://www.facebook.com/groups/151869358260625/" ><FaFacebook /></a>
+                                <a href="https://velalarengg.ac.in/" ><FaGoogle /></a>
+                                <a href="https://www.linkedin.com/school/velalar-college-of-engineering-and-technology/" ><FaLinkedinIn /></a>
                             </span>
                         </div>
                     </div>
@@ -82,13 +82,13 @@ const Footer = () => {
                         <div className='others'>
                             <h3>OTHERS</h3>
                             <ul className="info-list">
-                                <li> <a href="#">NPTEL</a> </li>
-                                <li> <a href="#">Swayam</a> </li>
-                                <li> <a href="#">Vidya-Mitra</a> </li>
-                                <li> <a href="#">Gateway to All PG Courses</a> </li>
-                                <li> <a href="#">Sakshat(Innovative E-Content)</a> </li>
-                                <li> <a href="#">Skill Tests for students</a> </li>
-                                <li> <a href="#">NV Services Portal</a> </li>
+                                <li> <a href="https://nptel.ac.in/">NPTEL</a> </li>
+                                <li> <a href="https://swayam.gov.in/">Swayam</a> </li>
+                                <li> <a href="https://vidyamitra.inflibnet.ac.in/">Vidya-Mitra</a> </li>
+                                <li> <a href="https://epgp.inflibnet.ac.ac">Gateway to All PG Courses</a> </li>
+                                <li> <a href="https://www.education.gov.in/technology-enabled-learning-1">Sakshat(Innovative E-Content)</a> </li>
+                                <li> <a href="https://www.youth4work.com/onlinetalenttest">Skill Tests for students</a> </li>
+                                <li> <a href="https://voters.eci.gov.in/">NV Services Portal</a> </li>
                             </ul>
                         </div>
                     </div>
