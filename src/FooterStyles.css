@@ -118,7 +118,7 @@ input:focus {
     width: 200px;
 }
 
-.latest_post li .latest_post_txt h4 {
+.latest_post li, .latest_post_txt h4 {
     margin: 0;
     line-height: 18px;
     font-size: 10px;
