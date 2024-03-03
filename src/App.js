@@ -1,18 +1,16 @@
-import CourseList from "./CourseList";
-import HomeTop from "./HomeTop";
-import Navbar from "./Navbar";
-import LatestCourseSlider from "./LatestCourseSlider";
-import Footer from "./Footer";
-// import Contact from "./Contact";
+import CourseList from './CourseList';
+import LatestCourseSlider from './LatestCourseSlider';
+import HomeTop from './HomeTop';
+import Navbar from './Navbar';
+import Footer from './Footer';
 function App() {
   return (
-    <div>
+   <div>
       <Navbar />
       <HomeTop />
       <LatestCourseSlider />
       <CourseList />
       <Footer />
-      {/* <Contact /> */}
     </div>
   );
 }

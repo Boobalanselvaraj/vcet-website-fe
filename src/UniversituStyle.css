@@ -1,0 +1,66 @@
+.university-container{
+    width: 100%;
+    height: 450px;
+    display: flex;
+  }
+  
+  .welcome-uni{
+    width: 50%;
+    padding-top: 200px;
+    line-height: 25px;
+    color: grey;
+  }
+  
+  .welcome-uni h1{
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .uni-text{
+    padding-left: 100px;
+    width: 80%;
+  }
+  
+  .degree{
+    width: 50%;
+    background-color: rgb(255, 242, 225);
+  }
+  
+  .degree-content{
+    margin-left: 65px;
+    width: 70%;
+  }
+  
+  .deg {
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+    font-size: 18px ;
+  }
+  
+  .deg .img {
+    margin-right: 20px; 
+  }
+  
+  .deg .text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .deg .text h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  } 
+  
+  .deg .text p {
+    color: rgb(98, 97, 97);
+  }
+
+  @media screen and (max-width:1000px) {
+        .university-container{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+  }

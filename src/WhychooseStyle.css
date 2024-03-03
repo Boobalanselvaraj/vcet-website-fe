@@ -1,0 +1,145 @@
+.whyChoose{
+    margin-top: 3%;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.whyImage{
+    margin-right: 40px;
+    display: block;
+}
+
+.whyContent{
+    width: 50%;
+    display: block;
+}
+
+.whyContent h1{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.whyContent p{
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.whylogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.firimg{
+    background-color: #ff3d00;
+    padding: 18px 20px;
+    border-radius: 50%;
+}
+
+.secimg{
+    background-color: #ff3d00;
+    padding: 19px 17px;
+    border-radius: 50%;
+}
+
+.thirdimg{
+    background-color: #ff3d00;
+    padding: 17px 20px;
+    border-radius: 50%;
+}
+
+.division{
+    vertical-align:bottom;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.division img{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:1200px) {
+  .whyChoose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .whyImage{
+    display: grid;
+    place-content: middle;
+  }
+  .whyImage img{
+    height: 350px;
+    width: 350px;
+}
+
+  .whyContent{
+    width: 70%;
+    margin-top: 40px;
+  }
+
+  .whyChoose{
+    padding: 0px;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+    .whylogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 45px;
+        
+    }
+
+    .division{
+        margin-bottom: 30px;
+    }
+
+    .whyImage img{
+        margin-left: 35px;
+        height: 280px;
+        width: 280px;
+    }
+
+    .whyContent p{
+        font-size: 20px;
+    }
+
+    .whyContent h1{
+        font-size: 27px;
+    }
+
+    .whyContent{
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .whyChoose{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .whyImage{
+        display: none;
+    }
+
+    .whyContent{
+        width: 100%;
+    }
+
+    .whyChoose{
+        padding: 30px;
+    }
+}
+
+
