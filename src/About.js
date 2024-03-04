@@ -92,13 +92,25 @@ const About = () => {
 
           <div className="profit">
             <img src={structure} alt="" />
-            <h3>Not For Profit</h3>
+            <h3>Course Structure</h3>
           </div>
 
           <div className="profit">
             <img src={test} alt="" />
-            <h3>Not For Profit</h3>
+            <h3>Test Preparation</h3>
           </div>
+        </div>
+      </div>
+
+      <div className="applycontainer">
+        <div className="applymain">
+            <div className="applytext">
+              <h3>Do You Want To Join With US !</h3>
+              <p>Makin their way the only way they know how. That's just a little bit more than the law will allow.</p>
+            </div>
+            <div className="applybtn">
+              <a href="#">APPLY NOW</a>
+            </div>
         </div>
       </div>
       <Footer />

@@ -48,6 +48,7 @@ h1{
 
 i {
   font-size: 1rem;
+  color: #f6f3f3;
 }
 
 .university-container{
@@ -109,7 +110,7 @@ i {
 }
 
 .principle-container{
-  background-color: #e6e5e5;
+  background-color: #f6f3f3;
   padding: 90px 0px;
 }
 
@@ -155,6 +156,72 @@ i {
   margin-top: 30px;
 }
 
+.applycontainer {
+  background: url(./Images/bgimg-about.png);
+  background-attachment: fixed;
+  background-color: #ff3d00;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.applymain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.applytext {
+  flex: 1;
+}
+
+.applytext h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.applytext p {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.applybtn a {
+  border: 2px solid white;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.applybtn a:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width:1020px) {
+  .applymain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .applybtn{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .applymain{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width:1052px) {
   .university-container{
