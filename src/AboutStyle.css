@@ -1,3 +1,7 @@
+h1{
+  color: black;
+}
+
 .aboutImage {
   position: relative;
   background: url(./Images/Aboutpic.jpg);
@@ -13,22 +17,11 @@
   color: whitesmoke;
 }
 
-.findsec {
-  height: 70px;
-  background-color: red;
-  background: url(Images/bgimg-about.png);
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .subNav-container {
   background: url(./Images/bgimg-about.png);
+  background-attachment: fixed;
   display: flex;
   background-color: #ff3d00;
-  background-attachment: fixed;
   padding: 15px 20px;
   align-items: center;
   justify-content: space-between;
@@ -56,6 +49,165 @@
 i {
   font-size: 1rem;
 }
+
+.university-container{
+  width: 100%;
+  display: flex;
+}
+
+.welcome-uni{
+  width: 50%;
+  padding-top: 200px;
+  line-height: 25px;
+  color: grey;
+}
+
+.welcome-uni h1{
+  color: black;
+  margin-bottom: 20px;
+}
+
+.uni-text{
+  margin-left: 10%;
+  width: 80%;
+}
+
+.degree{
+  width: 50%;
+  background-color: rgb(255, 242, 225);
+}
+
+.degree-content{
+  margin-left: 65px;
+  width: 70%;
+}
+
+.deg {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 18px ;
+}
+
+.deg .img {
+  margin-right: 20px; 
+}
+
+.deg .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.deg .text h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+} 
+
+.deg .text p {
+  color: rgb(98, 97, 97);
+}
+
+.principle-container{
+  background-color: #e6e5e5;
+  padding: 90px 0px;
+}
+
+.principle-title{
+  text-align: center;
+}
+
+.principle-title h1{
+  font-size: 3rem;
+  margin-bottom: 18px;
+}
+
+.principle-title p{
+  font-size: 23px;
+  color: grey;
+  font-family: 'LatoMedium', sans-serif;;
+}
+
+.principle-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+.profit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: 5px dashed rgb(195, 191, 191);
+  width: 300px;
+  height: 320px;
+  margin-right: 1rem;
+  margin-bottom: 20px;
+}
+
+.profit h3{
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width:1052px) {
+  .university-container{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .welcome-uni{
+    text-align: center;
+    width: 100%;
+    padding-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .degree{
+    width: 100%;
+  }
+
+  .degree-content{
+    width: 75%;
+  }
+
+  .deg{
+    margin-left: 50px;
+    margin-top: 50px;
+  }   
+}
+
+@media screen and (max-width:430px) {
+.deg{
+  margin-left: 0px;
+  text-align: center;
+}
+
+.degree-content{
+  margin: 40px;
+}
+
+.profit{
+  height:250px;
+  width: 250px;
+}
+
+.principle-title h1{
+  font-size: 35px;
+}
+
+.principle-title p{
+  font-size: 20px;
+}
+}
+
+
 
  
 
