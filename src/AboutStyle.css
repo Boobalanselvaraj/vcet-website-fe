@@ -17,7 +17,7 @@ h1{
   color: whitesmoke;
 }
 
-.subNav-container {
+.subNav-containers {
   background: url(./Images/bgimg-about.png);
   background-attachment: fixed;
   display: flex;
@@ -28,20 +28,20 @@ h1{
   color: #fff;
 }
 
-.heading > h2 {
+.headings > h2 {
   font-size: 1.5rem;
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
 }
 
-.contact-elements > ul {
+.contact-element > ul {
   display: flex;
   font-size: 1.1rem;
   list-style: none;
   gap: 10px;
 }
 
-.contact-elements > ul > li > a {
+.contact-element > ul > li > a {
   text-decoration: none;
   color: white;
 }

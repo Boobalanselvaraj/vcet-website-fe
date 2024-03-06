@@ -21,11 +21,11 @@ const About = () => {
       <div className="aboutImage">
         <h1>About us</h1>
       </div>
-      <div className="subNav-container">
-        <div className="heading">
+      <div className="subNav-containers">
+        <div className="headings">
           <h2>About Us</h2>
         </div>
-        <div className="contact-elements">
+        <div className="contact-element">
           <ul>
             <li>
               <a href="#">Home</a>
